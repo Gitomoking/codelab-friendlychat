@@ -132,9 +132,8 @@ public class SignInActivity extends AppCompatActivity implements
                         } else {
                             startActivity(new Intent(SignInActivity.this, MainActivity.class));
                             finish();
+                        }
                     }
-                }
-
-    }
+                } );
     }
 }
